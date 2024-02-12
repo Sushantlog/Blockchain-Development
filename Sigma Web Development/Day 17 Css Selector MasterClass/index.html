@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+        /* Element Selector */
+        div{
+            background-color: darkmagenta;
+        }
+
+        /* Class Selector */
+        .heading{
+            background-color: darkcyan;
+        }
+
+        /* Id Selector */
+        #paragraph{
+            color: darkgray;
+            background-color: pink;
+        }
+
+        /* Child Selector */
+        div > p{
+            color: blue;
+            background-color: brown;
+        }
+
+        /* Descendent Selector */
+        main p{
+            color: violet;
+            background-color: gold;
+        }
+
+        /* Universal Selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Pseudo Selector */
+        a:visited{              /*this will invoke the like is visited*/
+            color: yellow;
+        }
+        a:link{                /* when a new link is created but not visited*/
+            color: green;
+        }
+        /* ---------------------------------------- */
+
+        a:active{
+            background-color: red;
+        }
+
+        a:hover{
+            background-color: pink;
+        }
+
+        p:first-child{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>I am First Child </p>   <!-- this will apply fist child of para -->
+        <p>I am Second Child</p>
+
+        I am First Div Which use Element Selector
+    </div>
+
+    <h1 class="heading">This Heading use Class Selector </h1>
+
+    <p id="paragraph">Hello Everyone I am learning Selector in css and i use paragraph as Id Selector</p>
+
+    <div>
+        I am Second Div
+            <p>
+                I am a para inside a Second Div 
+            </p>
+    </div>
+
+    <main>
+        <article>
+            This is article
+            <p>
+                Descendent Selector in para
+            </p>
+        </article>
+    </main>
+
+    <a href="https://www.google.com">Go To Google</a>
+    <a href="https://www.facebook.com">Go To Facebook</a>
+    <a href="https://andersbrownworth.com/blockchain">Go To Blockchain</a>
+</body>
+</html>
