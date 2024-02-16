@@ -9,10 +9,30 @@
             margin: 0;
             padding: 0;
         }
+
+        .box{
+            border: 2px solid black;
+            /* height: 133px; */
+            height: 433px; /* By Using the fixed position */
+            width: 80vw;
+            padding: 3px;
+            margin: 3px;
+        }
+
         .box1{
             background-color: #00ffff;
             position: absolute;
             top: 0px;
+            left: 0px;
+
+            /* Sticky Position */
+            /* position: sticky;
+            top :0px;
+            height: 111px;
+            width: 100%;
+            margin: 0;
+            padding: 0; */
+
         }
         .box2{
             background-color: azure;
@@ -23,23 +43,21 @@
         }
         .box3{
             background-color: antiquewhite;
+            /* position: fixed;
+            bottom: 0px;
+            left: 8vw;
+            height: 111px; */
+
         }
         .box4{
             background-color: purple;
-        }
-        
-        .box{
-            border: 2px solid black;
-            height: 133px;
-            width: 80vw;
-            padding: 3px;
-            margin: 3px;
         }
 
         .parent{
             padding: 43px;
             margin: 34px;
             border: 3px solid purple;
+            position: sticky;
         }
     </style>
 </head>
