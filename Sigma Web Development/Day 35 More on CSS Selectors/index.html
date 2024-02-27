@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS Selectors</title>
+    <style>
+        /* .box:first-child{
+            background-color: red;
+        } */
+
+        /* This will select first line of Paragraph */
+
+        /* .box::first-line{
+            color: red;
+        } */
+
+        /* .boxes *{
+            color: blue;
+            border: 2px solid black;
+        } */
+
+        /* attribute selector */
+
+        /* [data-color="primary"]{
+            padding-top: 45px;
+        } */
+
+        /* grouping selector */
+        /* p,a,.box,[data-color="primary"]{
+            padding-top: 45px;
+        } */
+
+        /* .box:nth-child(even){
+            background-color: rgb(42, 224, 66);
+        } */
+
+        /* bottom to top child */
+        /* .box:nth-last-child(1){
+            background-color: blue;
+        } */
+
+        /* .boxes::before{
+            content: "Sushant is good";
+            color: purple;
+        }
+
+        .boxes::after{
+            content: "Last Line of project";
+            color: red;
+        } */
+
+        ::selection{
+            background-color: black;
+            columns: blue;
+
+        }
+
+        .box::first-letter{
+            color: peru;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">I am a first Box</div>
+        <div class="box">Hey I am a box</div>
+        <div class="box">Hey I am a box</div>
+        <input type="text",placeholder = "Type ">
+    </div>
+</body>
+</html>
