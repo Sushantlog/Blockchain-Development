@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float & Clear</title>
+    <style>
+        .cards{
+            border: 2px solid black;
+            display: flow-root;
+        }
+        img{
+            float: left;
+            /* float: right; */
+        }
+
+        .card{
+            border: 2px solid red;
+        }
+
+        .card:nth-child(3){
+            background-color: aqua;
+            clear: left;
+            /* clear: right; */
+            /* clear: both; */
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img src="https://media.istockphoto.com/id/928826678/photo/two-men-relaxing-and-fishing.jpg?s=1024x1024&w=is&k=20&c=88iTSqoCLCQeJCho0mwl0nkwr7lLSS1X5V6PUI1vPKA=" width="230" alt="">
+        <div class="card">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus quidem possimus corrupti distinctio impedit vel delectus quis in quaerat aperiam pariatur ex quibusdam id sequi sit, labore eum veritatis dolorem esse. Pariatur, ea? Error.</div>
+        <div class="card">Card 1</div>
+        <div class="card">Card 2</div>
+        <div class="card">Card 3</div>
+    </div>
+</body>
+</html>
