@@ -52,12 +52,16 @@
 
         ::selection{
             background-color: black;
-            columns: blue;
-
+            color: aqua;
         }
 
         .box::first-letter{
             color: peru;
+            font-size: 45px;
+        }
+
+        input::placeholder{
+            color: rgb(84, 84, 88);
         }
     </style>
 </head>
@@ -66,7 +70,7 @@
         <div data-color="primary" class="box">I am a first Box</div>
         <div class="box">Hey I am a box</div>
         <div class="box">Hey I am a box</div>
-        <input type="text",placeholder = "Type ">
+        <input type="text" placeholder = "Type your name here ">
     </div>
 </body>
 </html>
