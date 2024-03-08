@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations</title>
+    <style>
+        .container{
+            background-color: rgb(137, 252, 252);
+            height: 80vh;
+            width: 30vw;
+        }
+
+        .box{
+            width: 34px;
+            height: 45px;
+            background-color: aqua;
+            /* Animation Property */
+
+            /* animation-name: HarryKaAnimation;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0, 0, 0, 0.96);
+            animation-delay: 1s;
+            animation-direction: alternate-reverse;
+            animation-play-state: paused; */
+
+            /* -------------------------- */
+
+            /* Shorthand */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: HarryKaAnimation 3s ease-in-out 1s infinite;
+
+        }
+
+        @keyframes HarryKaAnimation {
+            from{
+
+            }
+            to{
+                transform: translateX(1000px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Box
+        </div>
+    </div>
+</body>
+</html>
