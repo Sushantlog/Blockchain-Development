@@ -21,7 +21,7 @@
             animation-duration: 1s;
             animation-iteration-count: infinite;
             animation-timing-function: cubic-bezier(0, 0, 0, 0.96);
-            animation-delay: 1s;
+            animation-delay: 1s;  
             animation-direction: alternate-reverse;
             animation-play-state: paused; */
 
@@ -29,15 +29,20 @@
 
             /* Shorthand */
             /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-            animation: HarryKaAnimation 3s ease-in-out 1s infinite;
+            /* animation: HarryKaAnimation 3s ease-in-out 1s infinite; */
+            animation: HarryKaAnimation 3s ease-in-out 3s 1 backwards ;
+
+
+            /* -------------------------- */
 
         }
 
         @keyframes HarryKaAnimation {
             from{
-
+                background-color: red;
             }
             to{
+                background-color: yellow;
                 transform: translateX(1000px);
             }
         }
