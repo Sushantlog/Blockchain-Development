@@ -24,5 +24,22 @@ console.log(`His name is ${real_name} and his friend name is ${friend}`);
 // Convert lower case to upper case
 let b = "shivam";
 console.log(b.toUpperCase());
-// convert upper case to lower case
+// convert upper case to lower case and This is function 
 console.log(b.toLowerCase());
+// This is property. 
+console.log(b.length);
+
+// Slicing a string 
+console.log(b.slice(1,4));
+console.log(b.slice(1));
+
+// Replace 
+console.log(b.replace("sh","77"))
+// Multiple occurrences. can't replace second occurence
+let s = "sushantsh"
+console.log(s.replace("sh","77"))
+
+// Concatenation
+console.log(b.concat(a));
+console.log(b.concat(a, "Ujwala","Pavan","priya"));
+
