@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // define the variable
+        let welcomeMessage = "Hello Friends";
+        console.log("Hello Friend");
+        console.log(welcomeMessage);
+
+        // type 1 :
+        // let begSummary = `your final Myntra Bag amount is ₹${Math.round(((15599 - (10/100 * 15599))-272+ (2499 - (41/100*2499)) -29 + 25 + 20) * 118/100)}`;
+        // console.log(begSummary);
+
+        // type 2:
+        // let bagValue = Math.round(((15599 - (10/100 * 15599))-272+ (2499 - (41/100*2499)) -29 + 25 + 20) * 118/100);
+
+        // let begSummary = `Your final Myntra Bag amount is ₹${bagValue}`;
+        // console.log(begSummary);
+
+        // type 3 :  actual code follow this 
+        let bagPrice = (15599 - (10/100 * 15599)) - 272;
+        let jeansPrice = (2499 - (41/100*2499)) -29 ;
+        let bagValue = Math.round((jeansPrice + bagPrice + 25 +20) * 118/100);
+        let begSummary = `Your final Myntra Bag amount is ₹${
+        bagValue}`;
+        console.log(begSummary);
+
+    </script>
+</body>
+</html>
