@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+f    <title>Practice Exercise</title>
+</head>
+<body>
+    <p id="name-display"></p>
+
+    <script>
+        // 1 save your name in a variable inside script tag
+        const myName = "Sushant";
+        console.log(myName); 
+
+        // 2 Display name from the variable on the page
+        let Name = "Pavan";
+        document.querySelector(`#name-display`).innerText = Name;
+
+        // 3 Calculat the cost of Myntra Bag and keep it in a variable
+        // 4 show into console
+        // 5 keep GST percentage as constant
+
+        const GSTPercentage = 18;
+        let cartValue = Math.round(((15599 - (10/100 * 15599))-272+ (2499 - (41/100*2499)) -29 + 25 + 20) * (100 + GSTPercentage)/100);
+        console.log(cartValue);
+
+        // 6 use eval method from math to convert string calculation into result
+        console.log(eval(`2+3+5*7-9`));
+    </script>
+</body>
+</html>
