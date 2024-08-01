@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+head,body{
+    width: 100%;
+    height: 100%;
+}
+
+#parent{
+    width: 600px;
+    height: 200px;
+    background-color: red;
+}
+/* percentage */
+#child{
+    /* it will takes values from the parent */
+    width: 100%;
+    height: 50%;
+    background-color: yellow;
+}
+/* vh/vw */
+#test{
+    /* it will takes values from the screen */
+    width: 50vw;
+    height: 50vh;
+    background-color: green;
+}
