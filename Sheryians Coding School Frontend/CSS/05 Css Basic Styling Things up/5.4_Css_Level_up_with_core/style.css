@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    font-family: PlayFair Display;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-decoration: underline;
+    /* available screen size of 1%  */
+    /* font-size: 1vw; */
+}
+
+
+.fontSize{
+    /* font-size: 50px; */
+    /* creating the responsive use vw*/
+    /* available screen size of 2%  */
+    font-size: 2vw;
+}

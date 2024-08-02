@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    /* line-height: 60px; */
+    /* line-height: 1; */
+    line-height: 1.2;
+}
+
+.textAlign{
+    /* text-align: left; */
+    /* text-align: right; */
+    text-align: center;
+}
