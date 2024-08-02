@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body{
+    height: 100%;
+    width: 100%;
+}
+
+#car1{
+    width: 100px;
+    height: 140px;
+    background-color: red;
+}
+
+#car2{
+    /* it move all the screen in Second layer because car2 is in second */
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80px;
+    height: 120px;
+    background-color: royalblue;
+}
+
+#car3{
+    width: 105px;
+    height: 90px;
+    background-color: rgb(32, 231, 238);
+}
