@@ -10,6 +10,8 @@ html body{
 }
 
 #car1{
+    position: absolute;
+    top: 3%;
     width: 100px;
     height: 140px;
     background-color: red;
@@ -19,13 +21,15 @@ html body{
     /* it move all the screen in Second layer because car2 is in second */
     position: absolute;
     top: 10%;
-    left: 10%;
+    left: 5%;
     width: 80px;
     height: 120px;
     background-color: royalblue;
 }
 
 #car3{
+    position: absolute;
+    top: 13%;
     width: 105px;
     height: 90px;
     background-color: rgb(32, 231, 238);
