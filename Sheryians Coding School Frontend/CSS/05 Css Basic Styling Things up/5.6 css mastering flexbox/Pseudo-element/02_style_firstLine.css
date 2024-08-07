@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body{
+    height: 100%;
+    width: 100%;
+}
+
+h1::first-line{
+    color: aqua;
+}
+
+h2::first-letter{
+    font-size: 120px;
+}
+
+h2::selection{
+    color: green;
+} 
