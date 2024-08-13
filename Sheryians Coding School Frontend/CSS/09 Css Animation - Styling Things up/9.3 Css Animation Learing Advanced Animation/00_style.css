@@ -11,19 +11,23 @@ html,body{
 }
 
 #box{
-    height: 400px;
+    height: 400Px;
     width: 400px;
-    background-color: crimson;
     position: absolute;
+    background-color: red;
     animation-name: anime;
     animation-duration: 2s;
+    animation-delay: 1s;
 }
 
 @keyframes anime {
     from{
-        left:0;
+        left: 0;
+        top: 0;
     }
     to{
         left: 60%;
+        top: 0;
+        background-color: blueviolet;
     }
 }

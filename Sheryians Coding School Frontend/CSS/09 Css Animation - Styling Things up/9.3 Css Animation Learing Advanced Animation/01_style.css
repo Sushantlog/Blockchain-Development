@@ -10,20 +10,21 @@ html,body{
     height: 100%;
 }
 
-#box{
-    height: 400px;
-    width: 400px;
-    background-color: crimson;
+img{
+    height: 500px;
     position: absolute;
-    animation-name: anime;
+    animation-name: chutki-anime;
     animation-duration: 2s;
+    animation-delay: 1s;
 }
 
-@keyframes anime {
+@keyframes chutki-anime {
     from{
-        left:0;
+        left: 0;
+        top: 0;
     }
     to{
-        left: 60%;
+        left: 80%;
+        top: 50%;
     }
 }
