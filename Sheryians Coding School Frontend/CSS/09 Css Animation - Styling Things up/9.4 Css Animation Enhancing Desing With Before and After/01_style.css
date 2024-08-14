@@ -17,4 +17,12 @@ h1{
 
 h1::after{
     content: " and Dostniyo!";
+    color: pink;
+    font-size: 50px;
+}
+
+h1::before{
+    content: "hihihi";
+    color: yellow;
+    font-size: 40px;
 }
