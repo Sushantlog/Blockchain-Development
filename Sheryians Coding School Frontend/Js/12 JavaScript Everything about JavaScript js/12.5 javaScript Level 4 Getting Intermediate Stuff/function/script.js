@@ -26,3 +26,9 @@ function abc(val){
 }
 
 abc(12); 
+
+// ----------------
+// implicte 
+var aa = ()=>15;
+
+var bb = aa()
