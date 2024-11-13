@@ -3,5 +3,7 @@
         "Balu",
         "Patil",
         "Sushant"
-    ]
+    ],
+    "pieces.cloudCapabilities": "Blended",
+    "pieces.telemetry": true
 }
