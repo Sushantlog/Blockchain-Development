@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;;
+}
+
+#parant{
+    width: 600px;
+    height: 500px;
+    background-color: crimson;
+}
+
+#child{
+    height: 50%;
+    width: 50%;
+    background-color: hotpink;
+}
+
+#test{
+    width: 100vw;
+    height: 100vh;
+    background-color: darkorchid;
+}

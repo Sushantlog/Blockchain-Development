@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+h1:hover{
+    color: deeppink;
+}
+
+button:active{
+    background-color: aqua;
+}
+
+input:focus{
+    background-color: green;
+}
+
+p:nth-child(8){
+    color: red;
+}
+
+p:nth-of-type(3) {
+    color: deeppink;
+}

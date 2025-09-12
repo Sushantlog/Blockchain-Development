@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    border: 3px solid black;
+    border-radius: 10px;
+    /* border: 3px dashed black; */
+}
+
+#main{
+    height: 300px;
+    width: 300px;
+    background-color: darkmagenta;
+    border: 3px solid black;
+    border-radius: 50%; 
+}
+
+#capsule{
+    height: 300px;
+    width: 600px;
+    background-color: crimson;
+    border: 3px solid black;
+    border-radius: 300px;
+}

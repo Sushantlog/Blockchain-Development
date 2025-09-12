@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+html{
+    font-size: 12px;
+}
+
+/* This will be take current element size */
+/* #test{
+    font-size: 50px;
+    width: 2em;
+    height: 2em;
+    background-color: palevioletred;
+} */
+
+/* This will be take html element size */
+#test{
+    width: 2rem;
+    height: 2rem;
+    background-color: chartreuse;
+}

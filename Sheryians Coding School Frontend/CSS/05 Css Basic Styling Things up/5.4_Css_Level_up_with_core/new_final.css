@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#parent{
+    width: 600px;
+    height: 400px;
+    background-color: aqua;
+    border: 3px solid black;
+    padding: 15px;
+}
+
+#child{
+    width: 300px;
+    height: 200px;
+    background-color: crimson;
+    border: 3px solid black;
+}
+
+#test{
+    width: 300px;
+    height: 200px;
+    background-color: deeppink;
+    border: 3px solid black;
+    margin: 25px;
+    border-radius: 15px;
+    padding: 10px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    line-height: 1.5;
+}
