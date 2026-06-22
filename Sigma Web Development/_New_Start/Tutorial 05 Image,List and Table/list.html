@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h3>List</h3>
+        <list>
+            <ul type="circle">
+                <li>Gym</li>
+                <li>Study</li>
+                <li>Sleep</li>
+            </ul>
+            <ul type="square">
+                <li>Consistency</li>
+                <li>Dedication</li>
+                <li>Hardwork</li>
+                <li>Patience</li>
+            </ul>
+        </list>
+
+        <list>
+            <ol type="1">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ol>
+            <ol type="A">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ol>
+            <ol type="i">
+                <li>React</li>
+                <li>Vue</li>
+                <li>Angular</li>
+            </ol>
+            <ol type="I">
+                <li>React</li>
+                <li>Vue</li>
+                <li>Angular</li>
+            </ol>
+        </list>
+
+
+        <!-- this not part of this section -->
+        
+        <!-- The input element with the list attribute -->
+        <input
+            type="text"
+            list="browsers"
+            name="browser"
+            placeholder="Choose a browser"
+        />
+
+        <!-- The matching datalist element -->
+        <datalist id="browsers">
+            <option value="Chrome"></option>
+            <option value="Firefox"></option>
+            <option value="Safari"></option>
+            <option value="Edge"></option>
+        </datalist>
+    </body>
+</html>

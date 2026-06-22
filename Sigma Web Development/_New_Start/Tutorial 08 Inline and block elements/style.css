@@ -1,0 +1,17 @@
+p{
+    background-color: aqua;
+    text-align: center;
+}
+
+span{
+    background-color: red;
+    /* text-align: center; */
+}
+
+a{
+    background-color: purple;
+}
+
+div{
+    background-color: pink;
+}
